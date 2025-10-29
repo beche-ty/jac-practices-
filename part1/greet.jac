@@ -11,7 +11,7 @@ walker Greeter {
     # runs when walker visits Person nodes
 
     can greet with Person entry {
-        print(f"Hello, {here.name}!")
+        print(f"Hello, {here.name}!");
         # here -curent node being visited
         visit [-->];  # Visit this person's connections
     }
